@@ -1,0 +1,23 @@
+﻿<Window x:Class="KeyboardClicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyboardClicker"
+        mc:Ignorable="d"
+		SizeToContent="WidthAndHeight"
+        Title="Skill repeater">
+	<Grid>
+		<GroupBox Header="Skills to repeat" Margin="16, 16, 16, 16">
+			<StackPanel Orientation="Horizontal" Margin="2,2,2,2" >
+				<CheckBox Content="Q" IsChecked="True" Margin="0,0,0,0" Name="QCheckBox" Checked="QCheckBox_Checked" Unchecked="QCheckBox_Unchecked"/>
+				<CheckBox Content="W" IsChecked="True" Margin="10,0,0,0" Name="WCheckBox" Checked="WCheckBox_Checked" Unchecked="WCheckBox_Unchecked"/>
+				<CheckBox Content="E" IsChecked="True" Margin="10,0,0,0" Name="ECheckBox" Checked="ECheckBox_Checked" Unchecked="ECheckBox_Unchecked"/>
+				<CheckBox Content="R" IsChecked="True" Margin="10,0,0,0" Name="RCheckBox" Checked="RCheckBox_Checked" Unchecked="RCheckBox_Unchecked"/>
+				<CheckBox Content="D" IsChecked="True" Margin="10,0,0,0" Name="DCheckBox" Checked="DCheckBox_Checked" Unchecked="DCheckBox_Unchecked"/>
+				<CheckBox Content="F" IsChecked="True" Margin="10,0,0,0" Name="FCheckBox" Checked="FCheckBox_Checked" Unchecked="FCheckBox_Unchecked"/>
+			</StackPanel>
+		</GroupBox>
+
+	</Grid>
+</Window>
