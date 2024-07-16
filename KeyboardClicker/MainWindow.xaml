@@ -6,18 +6,22 @@
         xmlns:local="clr-namespace:KeyboardClicker"
         mc:Ignorable="d"
 		SizeToContent="WidthAndHeight"
+		ResizeMode="NoResize"
         Title="Skill repeater">
 	<Grid>
-		<GroupBox Header="Skills to repeat" Margin="16, 16, 16, 16">
-			<StackPanel Orientation="Horizontal" Margin="2,2,2,2" >
-				<CheckBox Content="Q" IsChecked="True" Margin="0,0,0,0" Name="QCheckBox" Checked="QCheckBox_Checked" Unchecked="QCheckBox_Unchecked"/>
-				<CheckBox Content="W" IsChecked="True" Margin="10,0,0,0" Name="WCheckBox" Checked="WCheckBox_Checked" Unchecked="WCheckBox_Unchecked"/>
-				<CheckBox Content="E" IsChecked="True" Margin="10,0,0,0" Name="ECheckBox" Checked="ECheckBox_Checked" Unchecked="ECheckBox_Unchecked"/>
-				<CheckBox Content="R" IsChecked="True" Margin="10,0,0,0" Name="RCheckBox" Checked="RCheckBox_Checked" Unchecked="RCheckBox_Unchecked"/>
-				<CheckBox Content="D" IsChecked="True" Margin="10,0,0,0" Name="DCheckBox" Checked="DCheckBox_Checked" Unchecked="DCheckBox_Unchecked"/>
-				<CheckBox Content="F" IsChecked="True" Margin="10,0,0,0" Name="FCheckBox" Checked="FCheckBox_Checked" Unchecked="FCheckBox_Unchecked"/>
-			</StackPanel>
-		</GroupBox>
+		<StackPanel>
+			<GroupBox Header="Skills to repeat" Margin="16, 8, 16, 2">
+				<StackPanel Orientation="Horizontal" Margin="2,2,2,2" >
+					<CheckBox Content="Q" IsChecked="True" Margin="0,0,0,0" Name="QCheckBox" Checked="QCheckBox_Checked" Unchecked="QCheckBox_Unchecked"/>
+					<CheckBox Content="W" IsChecked="True" Margin="10,0,0,0" Name="WCheckBox" Checked="WCheckBox_Checked" Unchecked="WCheckBox_Unchecked"/>
+					<CheckBox Content="E" IsChecked="True" Margin="10,0,0,0" Name="ECheckBox" Checked="ECheckBox_Checked" Unchecked="ECheckBox_Unchecked"/>
+					<CheckBox Content="R" IsChecked="True" Margin="10,0,0,0" Name="RCheckBox" Checked="RCheckBox_Checked" Unchecked="RCheckBox_Unchecked"/>
+					<CheckBox Content="D" IsChecked="True" Margin="10,0,0,0" Name="DCheckBox" Checked="DCheckBox_Checked" Unchecked="DCheckBox_Unchecked"/>
+					<CheckBox Content="F" IsChecked="True" Margin="10,0,0,0" Name="FCheckBox" Checked="FCheckBox_Checked" Unchecked="FCheckBox_Unchecked"/>
+				</StackPanel>
+			</GroupBox>
+			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="16, 0, 16, 6" Foreground="#FFABABAB" FontSize="10">made by direded</TextBlock>
+		</StackPanel>
 
 	</Grid>
 </Window>
